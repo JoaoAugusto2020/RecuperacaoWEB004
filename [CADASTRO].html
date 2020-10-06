@@ -1,0 +1,132 @@
+
+<!-- saved from url=(0137)file:///D:/Users/Usuario/Desktop/Jo%C3%A3o/IFTM/Curso%20FIC/Modulos/Recupera%C3%A7%C3%A3o/test.html?nome=Jo%C3%A3o+Augusto+Marciano+Silva -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><doctype! html="">
+	
+		
+			<title>
+				[CADASTRO]
+			</title>
+			<link rel="stylesheet" href="./[CADASTRO]_files/bootstrap.css"><link>
+		
+		
+			<nav class="navbar navbar-light" style="background-color: #008B8B;">
+				<div class="container-sm">
+					<h1 style="color: white">
+						<b>Cadastro De Clientes<b>
+					</b></b></h1><b><b>
+				</b></b></div><b><b>
+			</b></b></nav><b><b>
+			<div class="container">
+				<form class="row">
+					<div>
+						<h5 style="margin-top: 7px"> Escolha se você deseja se cadastrar como pessoa FÍSICA(CPF) ou JURÍDICA(CNPJ): </h5>
+					</div>
+					<div>
+						<select id="select" onchange="escolha()" class="form-control" style="margin-top: 4px">
+						<option value=""></option>
+						<option value="CPF:">FÍSICA (CPF)</option>
+						<option value="CNPJ:">JURÍDICA (CNPJ)</option>
+						</select>
+					</div>
+				</form>
+				
+				<form class="row">
+					<div>
+						<label name="nome">Nome:</label>
+					</div>
+					<div class="col-3">
+						<input name="nome" type="text" class="form-control" style="margin-top: -3px">
+					</div>
+					<div class="col-1,5">
+						<p id="opt" size="5">Digite seu CPF:</p>
+						
+						<script>
+						function escolha()
+						{
+						var x = document.getElementById("select").value;
+						document.getElementById("opt").innerHTML = "Digite seu " + x;
+						}
+						</script>
+					</div>
+					<div class="col-3">
+						<label id="opt"></label>
+						<input id="opt" class="form-control" type="text" style="margin-top: -11px">
+					</div>
+					
+					<div>
+						<button type="button" class="btn btn-outline-success">Salvar</button>
+					</div>
+				</form>
+				
+				<br><br>
+				
+				<table class="table">
+					<colgroup>
+						<col width="350px">
+						<col width="100px">
+						<col width="250px">
+						<col width="100px">
+						<col width="100px">
+					</colgroup>
+					<thead class="thead-dark">
+						<tr><th>Nome:</th>
+						<th>CPF/CNPJ:</th>
+						<th>Número:</th>
+						<th>Alterar:</th>
+						<th>Deletar:</th>
+					</tr></thead>
+					<tbody class="thead-ligt">
+						<tr>
+							<td>João Augusto Marciano Silva</td>
+							<td id="retorno">CPF</td>
+							<td>151.489.023-11</td>
+							<td><button type="button" class="btn btn-outline-primary">Alterar</button>
+							</td><td><button type="button" class="btn btn-outline-danger">Deletar</button></td>
+						</tr>
+						<tr>
+							<td>(nome)</td>
+							<td id="retorno">(cpf/cnpj)</td>
+							<td>(numero)</td>
+							<td><button type="button" class="btn btn-outline-primary">Alterar</button>
+							</td><td><button type="button" class="btn btn-outline-danger">Deletar</button></td>
+						</tr>
+						<tr>
+							<td>(nome)</td>
+							<td id="retorno">(cpf/cnpj)</td>
+							<td>(numero)</td>
+							<td><button type="button" class="btn btn-outline-primary">Alterar</button>
+							</td><td><button type="button" class="btn btn-outline-danger">Deletar</button></td>
+						</tr>
+						<tr>
+							<td>(nome)</td>
+							<td id="retorno">(cpf/cnpj)</td>
+							<td>(numero)</td>
+							<td><button type="button" class="btn btn-outline-primary">Alterar</button>
+							</td><td><button type="button" class="btn btn-outline-danger">Deletar</button></td>
+						</tr>
+						<tr>
+							<td>(nome)</td>
+							<td id="retorno">(cpf/cnpj)</td>
+							<td>(numero)</td>
+							<td><button type="button" class="btn btn-outline-primary">Alterar</button>
+							</td><td><button type="button" class="btn btn-outline-danger">Deletar</button></td>
+						</tr>
+						<tr>
+							<td>(nome)</td>
+							<td id="retorno">(cpf/cnpj)</td>
+							<td>(numero)</td>
+							<td><button type="button" class="btn btn-outline-primary">Alterar</button>
+							</td><td><button type="button" class="btn btn-outline-danger">Deletar</button></td>
+						</tr>
+						<tr>
+							<td>(nome)</td>
+							<td id="retorno">(cpf/cnpj)</td>
+							<td>(numero)</td>
+							<td><button type="button" class="btn btn-outline-primary">Alterar</button>
+							</td><td><button type="button" class="btn btn-outline-danger">Deletar</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		
+	</b></b></doctype!></body></html>
